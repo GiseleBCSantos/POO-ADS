@@ -10,9 +10,9 @@ Atributos são características de um objeto, enquanto métodos são comportamen
 
 ### Questão 3
 
-Atributo                  |  Não importante |         Moderado          |   Essencial
------------------------------------------------------------------------------------------
-CPF                       |   Comprar pão   | Comprar em supermercado   |   Banco
+Atributo                  |  Não importante |         Moderado          |   Essencial                       
+--------------------------|-----------------|---------------------------|-----------------------------------
+CPF                       |   Comprar pão   | Comprar em supermercado   |   Banco                           
 Histórico de saúde        |   Comprar pão   |    Fazer uma viagem       |   Hospital  
 Quantidade de seguidores  |   Comprar pão   |   Conseguir parcerias     |   Redes sociais
 Habilidade destra         |   Comprar pão   |        Esportes           |   Antes e durante a idade média
@@ -37,20 +37,20 @@ Personagem (atributos: nickname, jogador, classe, nível, arma, inventario) (met
 
 ### Questão 10
 
-Circulo
----------------------
-- raio
-=====================
-+ calcularArea()
-+ calcularPerimetro()
+|       Circulo        |
+|----------------------|
+|- raio                |
+|----------------------|
+|+ calcularArea()      |
+|+ calcularPerimetro() |
 
 
-Situacao Financeira
---------------------
-- valorCreditos
-- valorDebitos
-====================
-+ calcularSaldo()
+|  Situacao Financeira  | 
+|-----------------------|
+|- valorCreditos        |
+|- valorDebitos         |
+|-----------------------|
+|+ calcularSaldo()      |
 
 
 
