@@ -1,4 +1,4 @@
-# Atividade Extra 2 ---- Questões teóricas
+# Atividade Extra 2 --> Questões teóricas
 
 ### Questão 1 - Identifique o nome do conceito representado pelo texto abaixo:
 - É a forma de definir ou controlar a complexidade baseada em características essenciais e pela supressão ou desconsideração de detalhes em orientação a objetos
@@ -24,9 +24,8 @@ Letra c: Objeto, Classe e Atributo.
 
 
 ### Questão 4 - Dada a construção abaixo, associe os números ao elemento correspondente:
-let conta : Conta = new Conta();  
-     (1)     (2)    (3)   (4)  
-
+let (1) conta : (2) Conta = (3) new (4) Conta();  
+                   
 1. Objeto
 2. Classe
 3. Operador de instanciação
