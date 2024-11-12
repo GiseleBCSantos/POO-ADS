@@ -8,10 +8,11 @@
 problemático.
 >> Erros em tempo de execução 
 
-´´´python
+``` python
 a = "10"
 b = 5
 print(a + b) # Erro em tempo de execução
+```
 
 4. Pesquise e exemplifique com um exemplo porque dizemos que a linguagem C, mesmo tendo tipagem estática, possui tipagem fraca.
 >> Permite manipulação automática de tipos e manipulação flexível de dados. Então, ao fazer operações entre tipagens diferentes (mas semelhantes), uma é automaticamente convertido na outra. 
