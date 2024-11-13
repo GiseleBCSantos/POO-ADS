@@ -39,3 +39,33 @@ class Hotel{
     }
 }
 ```
+
+4. Considere a classe Radio e as instruções que fazem seu uso abaixo:
+```javascript
+
+class Radio {
+volume : number;
+constructor(volume : number) {
+this.volume = volume;
+
+}
+}
+let r : Radio = new Radio();
+r.volume = 10;
+```
+
+Justifique o erro de compilação e proponha uma solução.
+- O erro de compilação ocorre devido a inicialização do objeto sem passar o volume como parâmetro (que se tornou obrigatório ao declará-lo no construtor)
+- Uma solução é :
+
+```javascript
+
+class Radio {
+volume : number;
+constructor(volume : number) {
+this.volume = volume;
+
+}
+}
+let r : Radio = new Radio(10);
+```
